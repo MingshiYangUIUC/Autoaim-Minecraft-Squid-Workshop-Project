@@ -40,7 +40,7 @@ Enable it by:
 - Repeat again after you complete shooting.
 ## Turret
 
-# Process
+# How it Works
 ## Finding the _Qualified_ Target
 The target is within 64m of the shooter.
 - The range is predefined to be less than the maximum reach of bow, as the bow becomes unstable and longer elapsed time diminishes the effectiveness of prediction (please try the Squid Workshop guns!).
