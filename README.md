@@ -50,8 +50,8 @@ The target is within 64m of the shooter.
 After the player started charging the bow, aiming is performed for 3 seconds unless the bow is released sooner.
 - The aiming considers the position and instataneous motion of the target. It will find an aim angle, in such situation the fully charged arrow will arrive at the predicted position of target after the same specific time, assuming the target is moving at constant motion.
 - The instataneous motion of target is calculated from change of position over time, once every two ticks (10Hz) due to caveats of Minecraft's inherent _Motion_ nbt. 
-- The aiming will not try indefinitely, if the target is not able to be reached by arrow (i.e. the target is flying away at a speed faster than the arrow), or the calculation uses a specific threashold of computational power.\
-\
+- The aiming will not try indefinitely, if the target is not able to be reached by arrow (i.e. the target is flying away at a speed faster than the arrow), or the calculation uses a specific threashold of computational power.
+
 See [here](https://drive.google.com/file/d/1al8XjiDddp3Yrvy2QDBMl3uDU6zx1Au_/view?usp=sharing) for some more details about this section. (Warning: this document is in Chinese and is unpublished).\
 Will provide ways to change some of these parameters.
 
