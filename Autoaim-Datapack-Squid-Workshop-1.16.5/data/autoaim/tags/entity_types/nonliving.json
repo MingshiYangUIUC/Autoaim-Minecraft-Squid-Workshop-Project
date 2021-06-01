@@ -1,0 +1,13 @@
+{
+"replace": false,
+"values": [
+"minecraft:fireball",
+"minecraft:minecart",
+"minecraft:chest_minecart",
+"minecraft:furnace_minecart",
+"minecraft:tnt_minecart",
+"minecraft:hopper_minecart",
+"minecraft:boat",
+"minecraft:armor_stand"
+]
+}

@@ -1,0 +1,18 @@
+{
+"replace": false,
+"values": [
+"minecraft:arrow",
+"minecraft:spectral_arrow",
+"minecraft:snowball",
+"minecraft:egg",
+"minecraft:ender_pearl",
+"minecraft:eye_of_ender",
+"minecraft:potion",
+"minecraft:dragon_fireball",
+"minecraft:small_fireball",
+"minecraft:experience_bottle",
+"minecraft:potion",
+"minecraft:llama_spit",
+"minecraft:firework_rocket"
+]
+}

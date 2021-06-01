@@ -1,0 +1,13 @@
+{
+"replace": false,
+"values": [
+"minecraft:piglin",
+"minecraft:salmon",
+"minecraft:strider",
+"minecraft:turtle",
+"minecraft:zombified_piglin",
+"minecraft:dolphin",
+"minecraft:tropical_fish",
+"minecraft:pufferfish"
+]
+}

@@ -1,0 +1,10 @@
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -1000000 run scoreboard players set Var AutoAim_T 848124
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -990000 run scoreboard players set Var AutoAim_T 851548
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -980000 run scoreboard players set Var AutoAim_T 855372
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -970000 run scoreboard players set Var AutoAim_T 859681
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -960000 run scoreboard players set Var AutoAim_T 864597
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -950000 run scoreboard players set Var AutoAim_T 870304
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -940000 run scoreboard players set Var AutoAim_T 877108
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -930000 run scoreboard players set Var AutoAim_T 885588
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -920000 run scoreboard players set Var AutoAim_T 897163
+execute if score Var AutoAim_Rint matches 1680000 if score Var AutoAim_yint matches -910000 run scoreboard players set Var AutoAim_T 919556
