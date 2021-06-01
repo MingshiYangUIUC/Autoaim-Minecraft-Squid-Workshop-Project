@@ -52,7 +52,7 @@ After the player started charging the bow, aiming is performed for 3 seconds unl
 - The instataneous motion of target is calculated from change of position over time, once every two ticks (10Hz) due to caveats of Minecraft's inherent _Motion_ nbt. 
 - The aiming will not try indefinitely, if the target is not able to be reached by arrow (i.e. the target is flying away at a speed faster than the arrow), or the calculation uses a specific threashold of computational power.
 
-See [here](https://drive.google.com/file/d/1al8XjiDddp3Yrvy2QDBMl3uDU6zx1Au_/view?usp=sharing) for some more details about this section. (Warning: this document is in Chinese and is unpublished).\
+See [here](https://drive.google.com/file/d/1al8XjiDddp3Yrvy2QDBMl3uDU6zx1Au_/view?usp=sharing) for some more details about this section (Warning: this document is in Chinese and is unpublished).\
 Will provide ways to change some of these parameters.
 
 # Project Tree
