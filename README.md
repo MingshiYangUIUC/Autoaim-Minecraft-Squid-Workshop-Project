@@ -38,29 +38,80 @@ Enable it by:
 # Project Tree
 See [here](https://github.com/Squid-Workshop/MinecraftDatapacksProject/blob/master/CONTRIBUTING.md) for our standard datapack structure and how this structure works.
 
-	  Bools-Datapack-Squid-Workshop-1.16.5
+	 Autoaim-Datapack-Squid-Workshop-1.16.5
 	    │  pack.mcmeta
 	    │  pack.png
 	    │  
 	    └─data
 		├─app
 		│  └─functions
-		│      ├─help
-		│      │       bools.mcfunction
+		│      ├─get
+		│      │   └─autoaim
+		│      │           bow.mcfunction
 		│      └─unload
-		│              bools.mcfunction
+		│              autoaim.mcfunction
 		│              
-		├─bools
-		│  └─functions
-		│      └─classes  
-		│          ├─main
-		│          │       clean.mcfunction
-		│          │       load.mcfunction
-		│          │       tick.mcfunction
-		│          └─bools
-		│                  check_every_tick.mcfunction
-		│                  check_three_ticks.mcfunction
-		│                  
+		├─autoaim
+		│  ├─functions
+		│  │   └─classes  
+		│  │       ├─main
+		│  │       │       clean.mcfunction
+		│  │       │       load.mcfunction
+		│  │       │       tick.mcfunction
+		│  │       ├─maps
+		│  │       │       map_a_*.mcfunction
+		│  │       │       map_ag_*.mcfunction
+		│  │       │       map_t_*.mcfunction
+		│  │       │       map_tg_*.mcfunction
+		│  │       ├─player
+		│  │       │       aim.mcfunction
+		│  │       │       autoshoot_launch.mcfunction
+		│  │       │       autoshoot_main.mcfunction
+		│  │       │       draw.mcfunction
+		│  │       │       get_dpdt.mcfunction
+		│  │       │       main.mcfunction
+		│  │       │       release.mcfunction
+		│  │       │       switch_run.mcfunction
+		│  │       │       target.mcfunction
+		│  │       │       untarget.mcfunction
+		│  │       │       vision.mcfunction
+		│  │       │       vision_compare.mcfunction
+		│  │       ├─run
+		│  │       │       aim3d.mcfunction
+		│  │       │       aimloop.mcfunction
+		│  │       │       autoshoot_launch.mcfunction
+		│  │       │       autoshoot_main.mcfunction
+		│  │       │       autoshoot_random.mcfunction
+		│  │       │       cat_polar.mcfunction
+		│  │       │       cosdeg.mcfunction
+		│  │       │       face_dynamic.mcfunction
+		│  │       │       get_ang.mcfunction
+		│  │       │       get_atan.mcfunction
+		│  │       │       get_disp3d.mcfunction
+		│  │       │       get_dpdt.mcfunction
+		│  │       │       get_tim.mcfunction
+		│  │       │       get_v3d.mcfunction
+		│  │       │       header.mcfunction
+		│  │       │       map_a.mcfunction
+		│  │       │       map_ag.mcfunction
+		│  │       │       map_t.mcfunction
+		│  │       │       mat_tg.mcfunction
+		│  │       │       sqrt.mcfunction
+		│  │       │       sqrt_operation.mcfunction
+		│  │       ├─tools
+		│  │       │       arrowspeed.mcfunction
+		│  │       │       arrowspeed_reset.mcfunction
+		│  │       └─turret
+		│  │               aim.mcfunction
+		│  │               deploy.mcfunction
+		│  │               main.mcfunction
+		│  ├─tags
+		│  │   └─entity_types
+		│  │           living.json 
+		│  │           nonliving.json
+		│  │
+		│  │
+		│  │               
 		└─minecraft
 		    └─tags
 			└─functions
@@ -73,7 +124,7 @@ As developer, deel free to use this datapack as a module to develop free datapac
 But you **must** add the link to this github page! \
 **NO COMMERCIAL USE**
 ## License
-[Mozilla Public License 2.0](https://github.com/nzcsx/Bools-Minecraft-Squid-Workshop-Project/blob/main/LICENSE)
+[Mozilla Public License 2.0](https://github.com/MingshiYangUIUC/Autoaim-Minecraft-Squid-Workshop-Project/blob/main/LICENSE)
 
 
 # More About Squid Workshop
