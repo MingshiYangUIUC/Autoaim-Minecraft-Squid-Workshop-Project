@@ -23,9 +23,9 @@ execute if score @s AutoAim_Phase matches 2 run scoreboard players operation @e[
 execute if score @s AutoAim_Phase matches 2 run scoreboard players operation @e[tag=aatgt,limit=1] AutoAim_Vy0 /= @s AutoAim_V02
 execute if score @s AutoAim_Phase matches 2 run scoreboard players operation @e[tag=aatgt,limit=1] AutoAim_Vz0 /= @s AutoAim_V02
 
-execute if score @s[nbt={OnGround:1b}] AutoAim_Phase matches 2 run scoreboard players add @e[tag=aatgt,limit=1] AutoAim_Vy0 784
+#execute if score @s[nbt={OnGround:1b}] AutoAim_Phase matches 2 run scoreboard players add @e[tag=aatgt,limit=1] AutoAim_Vy0 784
 
 #say dpdt
 #tellraw @a [{"score":{"name":"@e[tag=aatgt,limit=1]","objective":"AutoAim_Vx0"}}]
-tellraw @a[tag=aadebug] [{"score":{"name":"@e[tag=aatgt,limit=1]","objective":"AutoAim_Vy0"}}]
+#tellraw @a[tag=aadebug] [{"score":{"name":"@e[tag=aatgt,limit=1]","objective":"AutoAim_Vy0"}}]
 #execute if score @s AutoAim_Phase matches 2 run tellraw @a [{"score":{"name":"@s","objective":"T2"}}]

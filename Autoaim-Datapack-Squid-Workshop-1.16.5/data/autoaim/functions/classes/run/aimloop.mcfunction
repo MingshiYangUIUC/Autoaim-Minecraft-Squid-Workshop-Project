@@ -2,7 +2,7 @@
 #AutoAim_C10000 AutoAim_C2 AutoAim_C-1
 #tellraw @a [{"text":"AutoAim_try "},{"score":{"name":"Var","objective":"AutoAim_try"}}]
 
-tell @a[tag=aadebug] loop
+#tell @a[tag=aadebug] loop
 
 scoreboard players operation Var AutoAim_grad *= Var AutoAim_lr
 scoreboard players operation Var AutoAim_grad /= Var AutoAim_C10000

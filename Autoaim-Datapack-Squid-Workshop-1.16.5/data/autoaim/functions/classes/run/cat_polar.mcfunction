@@ -35,7 +35,7 @@ function autoaim:classes/run/sqrt
 scoreboard players operation Var AutoAim_SQ *= Var AutoAim_C2
 scoreboard players operation Var AutoAim_SQ *= Var AutoAim_C10
 
-tellraw @a[tag=aadebug] [{"text":"AutoAim_SQ: "},{"score":{"name":"Var","objective":"AutoAim_SQ"}}]
+tellraw @a[tag=aadebug] [{"text":"R distance: "},{"score":{"name":"Var","objective":"AutoAim_SQ"}}]
 
 scoreboard players operation Var AutoAim_Rpos = Var AutoAim_SQ
 scoreboard players operation Var AutoAim_ypos = Var AutoAim_Posy
